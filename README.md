@@ -1,10 +1,10 @@
 # Utility scripts
 
-A collection of utility scripts that I put together by divine inspiration or by peeking at someone else's work.
+A collection of utility scripts.
 
 ## Powershell
 * `Add-ActiveDirectoryUserInteractively.ps1` Interactively create an Active Directory User account
-* `Import-ActiveDirectoryOU.ps1` Import Active Directory OUs
+* `Import-ActiveDirectoryOU.ps1` Import Active Directory OUs from a CSV file
 * `Import-ActiveDirectoryUser.ps1` Imports Active Directory User accounts from a CSV file
 * `List-LocalUSerPasswordExpiration.ps1` Check LOCAL users for upcoming password expiration
 * `Notify-LocalUSerPasswordExpiration.ps1` Notify LOCAL users for upcoming password expiration
@@ -12,7 +12,7 @@ A collection of utility scripts that I put together by divine inspiration or by 
 
 ## VBScript
 * `AddLocalUser.vbs` Adds a new local user
-* `MozillaThunderbirdClean.vbs` Deletes *.mozmsgs folders, with *.mozeml and *.wdseml files
+* `MozillaThunderbirdClean.vbs` Deletes *.mozmsgs folders, and *.mozeml and *.wdseml files within
 * ### Functions
     * `CmdOutput.vbs` Returns the StdOut from a console command
     * `CPULoad.vbs` Returns the CPU load
@@ -35,7 +35,4 @@ A collection of utility scripts that I put together by divine inspiration or by 
     * `ProgressMsg.vbs` Displays a non-blocking message box
     * `RndPassword.vbs` Generates a semi random password
     * `TimeSpan.vbs` Returns the time span in hours:minutes:seconds format
-
-
-
-
+    * 
